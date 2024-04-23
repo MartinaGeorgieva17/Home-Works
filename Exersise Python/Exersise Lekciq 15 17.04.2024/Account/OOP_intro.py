@@ -1,24 +1,24 @@
-# class A:
-#     # class attribute
-#     name='A object'
+class A:
+    # class attribute
+    name='A object'
 
 
-# # instatiating objects of class A
-# a1 = A()
-# a2 = A()
+# instatiating objects of class A
+a1 = A()
+a2 = A()
 
-# a1.id = 1
-# a2.id = 2
+a1.id = 1
+a2.id = 2
 
 
-# show object attributes
-# print(a1.__dict__)
-# print(a2.__dict__)
+show object attributes
+print(a1.__dict__)
+print(a2.__dict__)
 
-# read class attributes
-# print(a1.name)
-# print(a2.name)
-# print(A.name)
+read class attributes
+print(a1.name)
+print(a2.name)
+print(A.name)
 
 
 # ----------------------------- Instance Methods ----------------------------- #
